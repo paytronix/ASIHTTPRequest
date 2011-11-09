@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0AE90D2145B02A000F37F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AE90D1145B029F00F37F55 /* Foundation.framework */; };
+		D0AE90D8145B02A000F37F55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0AE90D6145B02A000F37F55 /* InfoPlist.strings */; };
+		D0AE90EA145B030800F37F55 /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90DF145B030800F37F55 /* ASIAuthenticationDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90EB145B030800F37F55 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90E0145B030800F37F55 /* ASIAuthenticationDialog.m */; };
+		D0AE90EC145B030800F37F55 /* ASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90E1145B030800F37F55 /* ASICacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90ED145B030800F37F55 /* ASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90E2145B030800F37F55 /* ASIDataCompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90EE145B030800F37F55 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90E3145B030800F37F55 /* ASIDataCompressor.m */; };
+		D0AE90EF145B030800F37F55 /* ASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90E4145B030800F37F55 /* ASIDataDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90F0145B030800F37F55 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90E5145B030800F37F55 /* ASIDataDecompressor.m */; };
+		D0AE90F1145B030800F37F55 /* ASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90E6145B030800F37F55 /* ASIDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90F2145B030800F37F55 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90E7145B030800F37F55 /* ASIDownloadCache.m */; };
+		D0AE90F3145B030800F37F55 /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90E8145B030800F37F55 /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE90F4145B030800F37F55 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90E9145B030800F37F55 /* ASIFormDataRequest.m */; };
+		D0AE9100145B031300F37F55 /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90F5145B031300F37F55 /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9101145B031300F37F55 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90F6145B031300F37F55 /* ASIHTTPRequest.m */; };
+		D0AE9102145B031300F37F55 /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90F7145B031300F37F55 /* ASIHTTPRequestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9103145B031300F37F55 /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90F8145B031300F37F55 /* ASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9104145B031300F37F55 /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90F9145B031300F37F55 /* ASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9105145B031300F37F55 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90FA145B031300F37F55 /* ASIInputStream.m */; };
+		D0AE9106145B031300F37F55 /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90FB145B031300F37F55 /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9107145B031300F37F55 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90FC145B031300F37F55 /* ASINetworkQueue.m */; };
+		D0AE9108145B031300F37F55 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90FD145B031300F37F55 /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE9109145B031300F37F55 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE90FE145B031300F37F55 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AE910A145B031300F37F55 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AE90FF145B031300F37F55 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0AE90CE145B029F00F37F55 /* ASIHTTPRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = ASIHTTPRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AE90D1145B029F00F37F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0AE90D5145B02A000F37F55 /* ASIHTTPRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASIHTTPRequest-Info.plist"; sourceTree = "<group>"; };
+		D0AE90D7145B02A000F37F55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0AE90D9145B02A000F37F55 /* ASIHTTPRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASIHTTPRequest-Prefix.pch"; sourceTree = "<group>"; };
+		D0AE90DF145B030800F37F55 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		D0AE90E0145B030800F37F55 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		D0AE90E1145B030800F37F55 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		D0AE90E2145B030800F37F55 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		D0AE90E3145B030800F37F55 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		D0AE90E4145B030800F37F55 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		D0AE90E5145B030800F37F55 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		D0AE90E6145B030800F37F55 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		D0AE90E7145B030800F37F55 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		D0AE90E8145B030800F37F55 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		D0AE90E9145B030800F37F55 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		D0AE90F5145B031300F37F55 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		D0AE90F6145B031300F37F55 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		D0AE90F7145B031300F37F55 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		D0AE90F8145B031300F37F55 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		D0AE90F9145B031300F37F55 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		D0AE90FA145B031300F37F55 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		D0AE90FB145B031300F37F55 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		D0AE90FC145B031300F37F55 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		D0AE90FD145B031300F37F55 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		D0AE90FE145B031300F37F55 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D0AE90FF145B031300F37F55 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0AE90C9145B029F00F37F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE90D2145B02A000F37F55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0AE90C0145B029F00F37F55 = {
+			isa = PBXGroup;
+			children = (
+				D0AE90D3145B02A000F37F55 /* ASIHTTPRequest */,
+				D0AE90D0145B029F00F37F55 /* Frameworks */,
+				D0AE90CF145B029F00F37F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0AE90CF145B029F00F37F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE90CE145B029F00F37F55 /* ASIHTTPRequest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0AE90D0145B029F00F37F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE90D1145B029F00F37F55 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AE90D3145B02A000F37F55 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE90F5145B031300F37F55 /* ASIHTTPRequest.h */,
+				D0AE90F6145B031300F37F55 /* ASIHTTPRequest.m */,
+				D0AE90F7145B031300F37F55 /* ASIHTTPRequestConfig.h */,
+				D0AE90F8145B031300F37F55 /* ASIHTTPRequestDelegate.h */,
+				D0AE90F9145B031300F37F55 /* ASIInputStream.h */,
+				D0AE90FA145B031300F37F55 /* ASIInputStream.m */,
+				D0AE90FB145B031300F37F55 /* ASINetworkQueue.h */,
+				D0AE90FC145B031300F37F55 /* ASINetworkQueue.m */,
+				D0AE90FD145B031300F37F55 /* ASIProgressDelegate.h */,
+				D0AE90FE145B031300F37F55 /* Reachability.h */,
+				D0AE90FF145B031300F37F55 /* Reachability.m */,
+				D0AE90DF145B030800F37F55 /* ASIAuthenticationDialog.h */,
+				D0AE90E0145B030800F37F55 /* ASIAuthenticationDialog.m */,
+				D0AE90E1145B030800F37F55 /* ASICacheDelegate.h */,
+				D0AE90E2145B030800F37F55 /* ASIDataCompressor.h */,
+				D0AE90E3145B030800F37F55 /* ASIDataCompressor.m */,
+				D0AE90E4145B030800F37F55 /* ASIDataDecompressor.h */,
+				D0AE90E5145B030800F37F55 /* ASIDataDecompressor.m */,
+				D0AE90E6145B030800F37F55 /* ASIDownloadCache.h */,
+				D0AE90E7145B030800F37F55 /* ASIDownloadCache.m */,
+				D0AE90E8145B030800F37F55 /* ASIFormDataRequest.h */,
+				D0AE90E9145B030800F37F55 /* ASIFormDataRequest.m */,
+				D0AE90D4145B02A000F37F55 /* Supporting Files */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		D0AE90D4145B02A000F37F55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0AE90D5145B02A000F37F55 /* ASIHTTPRequest-Info.plist */,
+				D0AE90D6145B02A000F37F55 /* InfoPlist.strings */,
+				D0AE90D9145B02A000F37F55 /* ASIHTTPRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0AE90CA145B029F00F37F55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE90EA145B030800F37F55 /* ASIAuthenticationDialog.h in Headers */,
+				D0AE90EC145B030800F37F55 /* ASICacheDelegate.h in Headers */,
+				D0AE90ED145B030800F37F55 /* ASIDataCompressor.h in Headers */,
+				D0AE90EF145B030800F37F55 /* ASIDataDecompressor.h in Headers */,
+				D0AE90F1145B030800F37F55 /* ASIDownloadCache.h in Headers */,
+				D0AE90F3145B030800F37F55 /* ASIFormDataRequest.h in Headers */,
+				D0AE9100145B031300F37F55 /* ASIHTTPRequest.h in Headers */,
+				D0AE9102145B031300F37F55 /* ASIHTTPRequestConfig.h in Headers */,
+				D0AE9103145B031300F37F55 /* ASIHTTPRequestDelegate.h in Headers */,
+				D0AE9104145B031300F37F55 /* ASIInputStream.h in Headers */,
+				D0AE9106145B031300F37F55 /* ASINetworkQueue.h in Headers */,
+				D0AE9108145B031300F37F55 /* ASIProgressDelegate.h in Headers */,
+				D0AE9109145B031300F37F55 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D0AE90CD145B029F00F37F55 /* ASIHTTPRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AE90DC145B02A000F37F55 /* Build configuration list for PBXNativeTarget "ASIHTTPRequest" */;
+			buildPhases = (
+				D0AE90C7145B029F00F37F55 /* ShellScript */,
+				D0AE90C8145B029F00F37F55 /* Sources */,
+				D0AE90C9145B029F00F37F55 /* Frameworks */,
+				D0AE90CA145B029F00F37F55 /* Headers */,
+				D0AE90CB145B029F00F37F55 /* Resources */,
+				D0AE90CC145B029F00F37F55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASIHTTPRequest;
+			productName = ASIHTTPRequest;
+			productReference = D0AE90CE145B029F00F37F55 /* ASIHTTPRequest.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0AE90C2145B029F00F37F55 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D0AE90C5145B029F00F37F55 /* Build configuration list for PBXProject "ASIHTTPRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0AE90C0145B029F00F37F55;
+			productRefGroup = D0AE90CF145B029F00F37F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0AE90CD145B029F00F37F55 /* ASIHTTPRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0AE90CB145B029F00F37F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE90D8145B02A000F37F55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0AE90C7145B029F00F37F55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		D0AE90CC145B029F00F37F55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n\nif [ ! -d \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" ]; then\n    mkdir -p \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\"\nfi\n\necho rm -rf \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\"\nrm -rf \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\"\n\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}/${PRODUCT_NAME}.framework\" \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}/${PRODUCT_NAME}.framework\" \"Products/${CONFIGURATION}-${UFW_SDK_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0AE90C8145B029F00F37F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE90EB145B030800F37F55 /* ASIAuthenticationDialog.m in Sources */,
+				D0AE90EE145B030800F37F55 /* ASIDataCompressor.m in Sources */,
+				D0AE90F0145B030800F37F55 /* ASIDataDecompressor.m in Sources */,
+				D0AE90F2145B030800F37F55 /* ASIDownloadCache.m in Sources */,
+				D0AE90F4145B030800F37F55 /* ASIFormDataRequest.m in Sources */,
+				D0AE9101145B031300F37F55 /* ASIHTTPRequest.m in Sources */,
+				D0AE9105145B031300F37F55 /* ASIInputStream.m in Sources */,
+				D0AE9107145B031300F37F55 /* ASINetworkQueue.m in Sources */,
+				D0AE910A145B031300F37F55 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0AE90D6145B02A000F37F55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0AE90D7145B02A000F37F55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0AE90DA145B02A000F37F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0AE90DB145B02A000F37F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0AE90DD145B02A000F37F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASIHTTPRequest/ASIHTTPRequest-Prefix.pch";
+				INFOPLIST_FILE = "ASIHTTPRequest/ASIHTTPRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D0AE90DE145B02A000F37F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASIHTTPRequest/ASIHTTPRequest-Prefix.pch";
+				INFOPLIST_FILE = "ASIHTTPRequest/ASIHTTPRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0AE90C5145B029F00F37F55 /* Build configuration list for PBXProject "ASIHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE90DA145B02A000F37F55 /* Debug */,
+				D0AE90DB145B02A000F37F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AE90DC145B02A000F37F55 /* Build configuration list for PBXNativeTarget "ASIHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AE90DD145B02A000F37F55 /* Debug */,
+				D0AE90DE145B02A000F37F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0AE90C2145B029F00F37F55 /* Project object */;
+}

@@ -1,0 +1,11 @@
+This project is essentially an exact duplicate of ASIHTTPRequest 4282568:
+
+    https://github.com/pokeb/asi-http-request/tree/4282568eec0b487a98e312ce49b523350ffa4a6b
+
+that has been packaged as a static iOS framework:
+
+    https://github.com/kstenerud/iOS-Universal-Framework
+
+For convenient linking into iOS applications.
+
+-Ross Mellgren (rmellgren@paytronix.com)
